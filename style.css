@@ -1,10 +1,17 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
     background-color: #055079;
 }
 .container-calculadora{
-    background-color: #00A37D;
     width: 20%; 
-    height: 50%;
+    height: 500px; 
+    border-radius: 6%;
+    box-shadow: 10px 7px 5px #202020;
+    background-color: #00A37D;
 }
 .container-resultado{
     background-color: #353A39;
