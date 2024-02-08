@@ -3,6 +3,8 @@ body{
 }
 .container-calculadora{
     background-color: #00A37D;
+    width: 20%; 
+    height: 50%;
 }
 .container-resultado{
     background-color: #353A39;
