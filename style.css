@@ -7,7 +7,8 @@ body{
     background-color: #055079;
 }
 .container-calculadora{
-    display: flex;
+    display: flex;  
+    flex-direction: column;
     justify-content: center;
     width: 20%; 
     height: 600px; 
@@ -18,10 +19,43 @@ body{
 .container-resultado{
     background-color: #353A39;
     margin-top: 5%;
+    margin-left: 7%;
     width: 80%; 
     height: 150px;
     border-radius: 25px;  
     border-color: #018262;
     border-style: solid;
     border-width: 10px;
+}
+.numeros-operaciones{
+    display: grid;
+    grid-template-columns: 60.77px 60.77px 60.77px 60.77px;
+    grid-template-rows: 60px 60px 60px 60px;
+    justify-content: space-around;    
+    margin-top: 5%;
+    margin-left: 7%;
+    align-items: center;
+    width: 85%; 
+    height: 340px;  
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.numeros-operaciones div{  
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
+    background-color: #019C7A;
+    border-radius: 100%;
+    box-shadow: 5px 5px 2px #00000025;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.numeros-operaciones .Boton-c, .numeros-operaciones .Boton-0{  
+    border-radius: 30px;
+}
+.Boton-c, .Boton-0{    
+    grid-column: 1/3;
 }
